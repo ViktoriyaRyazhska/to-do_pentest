@@ -1,0 +1,9 @@
+spring:
+  jpa.database: SQL_SERVER
+  datasource:
+    url: jdbc:sqlserver://testd.database.windows.net:1433;database=testdb;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: user
+    password: 15$Ergiy15
+  sql:
+    init:
+      platform: sqlserver
